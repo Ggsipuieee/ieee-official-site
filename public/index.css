@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+.heading-main {
+  font-size: 243px;
+  font-style: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ccc;
+  letter-spacing: 0.07em;
+  font-family: "Telefon Black";
+}
+.heading-main strong {
+  color: #0dcaf0;
+}
+.about-us-intro {
+  background: rgb(72, 72, 72);
+  padding: 8rem 6rem;
+}
+.hero-section-heading {
+  font-size: 4.8rem;
+  text-transform: capitalize;
+  width: 50%;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+}
+.hero_section-image {
+  width: 30rem;
+  height: 35rem;
+  border-radius: 0.8rem;
+}
+.hero-section {
+  background: #212529;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem 8rem;
+}
+.content-heading {
+  font-size: 3.2rem;
+  text-transform: capitalize;
+}
+.content-text {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.our-mission_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  width: 50%;
+}
+.ieee-lead {
+  width: 25rem;
+  height: 30rem;
+}
+.our-mission {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem 12rem;
+}
+.ieee-information {
+  background-color: #212529;
+  padding: 4rem 8rem;
+  display: grid;
+  grid-template-rows: 35rem 35rem;
+  grid-template-columns: 40rem 40rem 40rem;
+  justify-content: center;
+  gap: 3rem;
+}
+.main-card {
+  display: grid;
+  padding: 3rem;
+  gap: 2rem;
+  grid-template-columns: 35rem;
+  grid-template-rows: 5rem 15rem 5rem;
+}
+.main-card_heading {
+  font-size: 2.4rem;
+  color: #fff;
+}
+.card-heading {
+  font-size: 2.4rem;
+}
+.main-card_text {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.card-text {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.card-link {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #fff;
+}
+.info-card-link {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #0d6efd;
+}
+.information-card_header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.information-card {
+  display: grid;
+  padding: 3rem;
+  background-color: #fff;
+  gap: 2rem;
+  grid-template-columns: 35rem;
+  grid-template-rows: 5rem 15rem 5rem;
+}
+.information-card:hover {
+  transform: scale(1.05);
+}
