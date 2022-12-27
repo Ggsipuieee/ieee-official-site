@@ -30,21 +30,21 @@ function Header() {
                 About Us
               </Link>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <Link class="nav-link" to="/events">
                 Events
               </Link>
-            </li>
+            </li> */}
             <li class="nav-item">
               <Link class="nav-link" to="/pastevents">
                 Past events
               </Link>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <Link class="nav-link" to="/details">
                 Details
               </Link>
-            </li>
+            </li> */}
           </ul>
           <div className="extrasection">
             <a href="https://instagram.com/ieeeggsipu?igshid=YmMyMTA2M2Y=">
