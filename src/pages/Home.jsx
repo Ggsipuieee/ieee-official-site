@@ -12,7 +12,7 @@ function Home() {
       <Sectionabout />
       <Sectionourteam />
       <Sectionwie />
-      <Sectionevent />
+      {/* <Sectionevent /> */}
     </div>
   );
 }

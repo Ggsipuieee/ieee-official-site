@@ -36,13 +36,13 @@ function Header() {
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/details">
-                Details
+              <Link class="nav-link" to="/pastevents">
+                Past events
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/more info">
-                Upcoming events
+              <Link class="nav-link" to="/details">
+                Details
               </Link>
             </li>
           </ul>

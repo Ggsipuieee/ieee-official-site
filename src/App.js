@@ -4,6 +4,7 @@ import About from "./pages/About.jsx";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Events from "./pages/Events";
+import Pevents from "./pages/Pastevent.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/pastevents" element={<Pevents />} />
       </Routes>
       <Footer />
     </Router>

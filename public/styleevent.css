@@ -45,6 +45,11 @@
   color: #ccc;
   transition: font-size 0.3s;
 }
+#past-event-Head {
+  font-size: 150px;
+  text-align: center;
+  letter-spacing: 0.08em;
+}
 .page-event .cover .heading::first-letter {
   color: #0d98ba;
 }
@@ -90,6 +95,18 @@
 }
 .page-event .upcoming-event-list .event-block .sec-2 img {
   width: 100%;
+}
+#coming-event-page {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 3rem;
+}
+#arambh-img {
+  width: 41%;
+  height: 10%;
 }
 .page-event .upcoming-event-list .event-block .sec-3 .title {
   font-size: 30px;
