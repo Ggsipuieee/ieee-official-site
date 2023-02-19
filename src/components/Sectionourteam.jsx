@@ -26,12 +26,12 @@ function Sectionourteam() {
             content="Chairperson"
           />
           <Card
-            src="./images/Karan.jpg"
-            text="Karan Pandey"
+            src="./images/jatin-bhaiya.JPG"
+            text="Jatin Singh"
             content="General Secretary"
           />
           <Card
-            src="./images/aadya.jpeg"
+            src="./images/aadya-did-new.JPG"
             text="Aadya Bubber"
             content="WIE Chairperson"
           />

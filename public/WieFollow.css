@@ -1,0 +1,139 @@
+.WieFollow {
+  display: flex;
+  align-items: flex-start;
+}
+.div1 {
+  width: 40%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-evenly;
+  padding: 3rem 6rem;
+  background-color: #2f0387;
+}
+.div1-head,
+.div2-head {
+  color: #ffff;
+  font-size: 3.2rem;
+}
+
+.div1-content h2 {
+  color: #ffff;
+  font-size: 2.4rem;
+  width: 70%;
+  font-weight: 300;
+  word-spacing: 3px;
+  line-height: 1.5;
+  text-align: center;
+}
+.div2-h2 {
+  color: #ffff;
+  font-size: 2.4rem;
+  width: 70%;
+  font-weight: 300;
+  word-spacing: 3px;
+  /* line-height: 1; */
+  text-align: left;
+}
+.div1-content h2 strong {
+  font-weight: 600;
+}
+.div1-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+.div1-border-line {
+  width: 5rem;
+  /* color: #fff; */
+  background: #ffff;
+  height: 1px;
+}
+/* #social-image {
+  width: 4rem;
+  background: red; 
+} */
+/* #social-image:hover {
+  fill: red;
+  transition: all 0.2s ease-in;
+} */
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.div2 {
+  width: 60%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+  justify-content: space-evenly;
+  padding: 3rem 6rem;
+  padding-top: 7rem;
+  background-color: #5e21d8;
+}
+.locality {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5rem;
+}
+.locality-border {
+  width: 10rem;
+  height: 2px;
+  /* width: 100%; */
+  background-color: #ffff;
+}
+.locality-link {
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  font-size: 2.4rem;
+}
+.locality-link:hover {
+  color: #fff;
+}
+
+.div3 {
+  display: flex;
+  align-items: baseline;
+  gap: 20rem;
+  justify-content: space-between;
+}
+@media (max-width: 1000px) {
+  html {
+    font-size: 49%;
+  }
+  .div1,
+  .div2 {
+    width: 100%;
+    height: 20vh;
+  }
+  .WieFollow {
+    flex-wrap: wrap;
+  }
+  .div3 {
+    gap: 10rem;
+  }
+  .div1 {
+    padding: 2rem 1rem;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  .div2 {
+    padding: 2rem 5rem;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+  }
+  .div2-primary {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+}

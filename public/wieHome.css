@@ -1,0 +1,209 @@
+.Wie-background {
+  background-color: #eee;
+  padding: 0;
+  box-sizing: border-box;
+  /* position: relative; */
+  margin: 0;
+}
+
+.wieHeroSection {
+  /* background: linear-gradient(to bottom, #4b05d7d4, #5e21d8); */
+  background-color: #2f0387;
+  /* background: pink; */
+  width: 100%;
+  height: 100vh;
+}
+/* #5e21d8 */
+
+.Wie-tag {
+  font-size: 6.4rem;
+  color: #fff;
+  /* position: absolute; */
+  /* top: 30%; */
+  margin-top: 20rem;
+  text-align: center;
+  /* left: 0; */
+  justify-content: center;
+  /* transform: translate(50%, 50%); */
+}
+
+/* cards */
+.Current-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  padding: 9rem 3rem;
+}
+.event-flex {
+  display: flex;
+  gap: 5rem;
+  /* position: relative; */
+  align-items: center;
+  justify-content: center;
+}
+.Event-heading {
+  font-size: 4.8rem;
+}
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+.event-card {
+  width: 50rem;
+  height: 40rem;
+  position: relative;
+}
+.big-card {
+  width: 80rem;
+  height: 40rem;
+  position: relative;
+}
+.small-event-img {
+  width: 100%;
+  height: 100%;
+}
+.about-event {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: #000;
+  cursor: pointer;
+  /* transform: translate(-50%, -50%); */
+}
+.wie-event-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+
+.event-card:hover .about-event {
+  opacity: 0.8;
+}
+
+.past-event-link {
+  text-decoration: none;
+  padding: 2rem 4rem;
+  width: 15rem;
+  text-align: center;
+  border-radius: 20rem;
+  background-color: #fff;
+  font-size: 1.6rem;
+}
+
+/* new hero */
+.container-hero {
+  margin: 0;
+  /* margin-top: 10rem; */
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/* canvas {
+  position: absolute;
+  bottom: 12%;
+  left: 0;
+  width: 100%;
+} */
+
+.title {
+  /* position: absolute; */
+  /* margin: 0 auto; */
+  text-shadow: 0px 4px 1px rgb(124 124 124 / 40%),
+    0px 7px 1px rgb(124 124 124 / 40%);
+  /* top: 50%;
+  left: 50%; */
+  color: #eee;
+  width: 50%;
+  /* transform: translate(-50%, 50%); */
+  /* height: 50vh; */
+  font-size: 6.4rem;
+  font-weight: 1400;
+  /* font-family: "Helvetica"; */
+  font-family: "Montserrat", sans-serif;
+  /* line-height: 80vh; */
+  text-transform: uppercase;
+  /* color: transparent;
+  -webkit-text-stroke: 1px #fff; */
+  text-align: left;
+}
+.container-hero-content {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 2rem;
+  /* transform: translate(50%, 50%); */
+}
+.wie-icon-big {
+  width: 20rem;
+}
+
+.women-img {
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+}
+
+.women-img-icon {
+  width: 5rem;
+  height: auto;
+  position: absolute;
+}
+.icon-1 {
+  top: 15%;
+  right: 50%;
+}
+.icon-2 {
+  top: 15%;
+  left: 10%;
+}
+.icon-3 {
+  top: 15%;
+  right: 17%;
+}
+.icon-4 {
+  bottom: 10%;
+  left: 10%;
+}
+.icon-5 {
+  bottom: 10%;
+  right: 50%;
+}
+
+/* responsive */
+@media (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+  .event-flex {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .event-card {
+    width: 100%;
+    height: 60rem;
+  }
+  .women-img {
+    width: 30rem;
+    height: 30rem;
+  }
+  .title {
+    width: 100%;
+  }
+  .links {
+    color: #fff;
+  }
+  /* .nav-link {
+    color: #fff;
+  } */
+}
