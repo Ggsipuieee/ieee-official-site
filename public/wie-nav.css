@@ -54,7 +54,8 @@ nav {
   }
   #navbar.active {
     right: 0px;
-    width: 100vw;
+    width: 50vw;
+    /* width: 100vw; */
   }
   #mobile li {
     margin-bottom: 20px;

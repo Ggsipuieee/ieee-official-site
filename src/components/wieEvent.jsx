@@ -33,18 +33,26 @@ function WieProject() {
       <h1 className="Event-heading">Past Events</h1>
       <div data-aos="fade-up" className="event-flex">
         <div className="event-card">
-          <img className="small-event-img" src="./images/event-img1.jpeg" />
+          <img className="small-event-img" src="./images/wie-event2.jpeg" />
           <div className="about-event">
             <div className="wie-event-content">
-              <h3>Hello</h3>
+              <h3>
+                {" "}
+                WIE orientation hosted by Aadya Bubber (WIE Chair),guiding Btech
+                students about WIE and benifits of joining WIE.
+              </h3>
             </div>
           </div>
         </div>
-        <div className="event-card big-card">
-          <img className="small-event-img" src="./images/event-img2.jpeg" />
+        {/* big-card class name */}
+        <div className="event-card ">
+          <img className="small-event-img" src="./images/wie-event1.jpeg" />
           <div className="about-event">
             <div className="wie-event-content">
-              <h3>Hello</h3>
+              <h3>
+                SDE at one of the biggest tech company Adobe,introducing Web
+                development and organsie a quize related to web development
+              </h3>
             </div>
           </div>
         </div>

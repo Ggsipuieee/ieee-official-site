@@ -470,7 +470,7 @@ function WieTeam() {
                     <ul>
                       <li>
                         <a
-                          href="https://www.linkedin.com/in/dhruv-gupta-55034a228/"
+                          href="https://www.linkedin.com/in/neha-rajput-530060262"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -609,7 +609,7 @@ function WieTeam() {
                     <ul>
                       <li>
                         <a
-                          href="https://www.linkedin.com/in/dhruv-gupta-55034a228/"
+                          href="https://in.linkedin.com/in/nidhi-bhati-1a542624b"
                           target="_blank"
                           rel="noreferrer"
                         >
