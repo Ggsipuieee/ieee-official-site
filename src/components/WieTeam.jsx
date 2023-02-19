@@ -1364,7 +1364,7 @@ function WieTeam() {
 
                       <li>
                         <a
-                          href="https://github.com/MR-DHRUV "
+                          href="https://github.com/tanyatanwer12 "
                           target="_blank"
                           rel="noreferrer"
                         >

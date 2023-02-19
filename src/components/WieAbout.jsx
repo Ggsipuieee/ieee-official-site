@@ -23,7 +23,7 @@ function WieAbout() {
         years and by opening <strong>WIE chapters</strong> in various
         universities and is now recognised worldwide
       </h1>
-      <div className="divider"></div>
+      <div data-aos="slide-up" className="divider"></div>
       <p data-aos="slide-up" className="wie-about-content">
         Girls will be able to have a safe and comfortable place to interact and
         participate and will be updated regarding all opportunities which are

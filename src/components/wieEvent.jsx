@@ -30,7 +30,7 @@ function WieProject() {
           </div>
         </div>
       </div> */}
-      <h1 className="Event-heading">Past Events</h1>
+      <h1 data-aos="slide-up" className="Event-heading">Past Events</h1>
       <div data-aos="fade-up" className="event-flex">
         <div className="event-card">
           <img className="small-event-img" src="./images/wie-event2.jpeg" />
