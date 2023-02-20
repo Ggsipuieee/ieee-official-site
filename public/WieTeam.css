@@ -277,9 +277,9 @@
   top: 0;
 }
 
-.neoh_fn_team .t_item:hover {
+/* .neoh_fn_team .t_item:hover {
   border-color: red;
-}
+} */
 .team_item {
   overflow: hidden;
 }

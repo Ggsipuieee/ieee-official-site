@@ -40,8 +40,8 @@ nav {
     justify-content: center;
     position: fixed;
     top: 9rem;
-    right: -300px;
-    width: 300px;
+    right: -500px;
+    width: 500px;
     height: 100vh;
     background-color: #2a3239;
     box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.1);
