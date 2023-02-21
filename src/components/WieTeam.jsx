@@ -687,7 +687,11 @@ function WieTeam() {
                       </li>
 
                       <li>
-                        <a href="#" target="_blank" rel="noreferrer">
+                        <a
+                          href="mailto:revatikaushal985@gmail.com"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           {/* <i className="fa-brands fa-github" /> */}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -798,7 +802,11 @@ function WieTeam() {
                       </li>
 
                       <li>
-                        <a href="#" target="_blank" rel="noreferrer">
+                        <a
+                          href="mailto:shriyasingh1712@gmail.com"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           {/* <i className="fa-brands fa-github" /> */}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
