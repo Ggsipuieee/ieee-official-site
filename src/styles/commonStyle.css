@@ -1,0 +1,16 @@
+.max-width {
+  max-width: 70%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.absolute-center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-col {
+  flex-direction: column;
+}
