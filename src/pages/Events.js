@@ -3,6 +3,15 @@
 // const Events = () => {
 //   return (
 //     <div>
+
+// // ****** HTML FOR TITLE *******
+{/* <div class="mainBox">
+  <div class="myTitle">
+    <h2 data-text="Past Events" class="TEXT">Past Events</h2>
+  </div>
+</div> */}
+
+//  //****** HTML FOR CARDS ******
 //       <div class="event-bg">
 //     <div class="event-container">
 //         <div class="event-card">
