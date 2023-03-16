@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+
+.center {
+  text-align: center;
+}
+
+.heading {
+  margin: 8rem 0 5rem;
+}
+
+.contact_heading {
+  color: #02044a;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.contact_heading_info {
+  color: #8f90ae;
+  font-size: 1.2rem;
+}
+
+.contact_container {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  background-color: #3e1f92;
+  padding: 3rem;
+  color: #ab9bd3;
+  border-radius: 1rem;
+}
+
+.contact_details::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgb(221, 69, 69), #fa949d);
+  clip-path: circle(35% at right 90%);
+  z-index: 0;
+}
+
+.contact_details::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#7e53f9, #502db1);
+  clip-path: circle(25% at left 60%);
+  z-index: 0;
+}
+
+.contact_info::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#7e53f9, #7e53f9);
+  clip-path: circle(12% at right 4%);
+  border-radius: 1rem;
+  z-index: 0;
+}
+
+.contact_details h2 {
+  color: #eee;
+  font-size: 2.3rem;
+  margin-bottom: 1.2rem;
+}
+
+.contact_detail_sub {
+  font-size: 1.1rem;
+  margin-bottom: 5rem;
+}
+
+.contact_phone {
+  font-size: 1.4rem;
+  margin-bottom: 4rem;
+  color: #bfb5db;
+  z-index: 999;
+}
+
+.contact_info {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  align-items: center;
+  margin-bottom: 4rem;
+  text-align: left;
+}
+
+.icons {
+  color: #fa949d;
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+  text-align: right;
+  margin-right: 6rem;
+  z-index: 999;
+}
+
+.social_links a {
+  padding: 1rem;
+  color: #ddd;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.social_links a:hover {
+  border-radius: 50%;
+  background-color: #fa949d;
+}
+
+.social_icons {
+  z-index: 1000;
+}
+
+/* ************** MEDIA QUEIRES ************** */
+
+/* ********* Below 1024px (Small laptops) ********* */
+@media (max-width: 64em) {
+  .heading {
+    margin: 8rem 0 5rem;
+  }
+
+  .contact_heading {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .contact_heading_info {
+    font-size: 1.2rem;
+  }
+
+  .contact_container {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    padding: 3rem;
+  }
+
+  .contact_details h2 {
+    font-size: 2.3rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .contact_detail_sub {
+    font-size: 1.1rem;
+    margin-bottom: 5rem;
+  }
+
+  .contact_phone {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+  }
+
+  .contact_info {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 4rem;
+    text-align: left;
+  }
+
+  .icons {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+  }
+
+  .social_links a {
+    border-radius: 100%;
+    padding: 0.7rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+  }
+}
+
+/* ********* Below 768px (Tablets) ********* */
+@media (max-width: 52em) {
+  .heading {
+    margin: 4rem 0 4rem;
+  }
+
+  .contact_heading {
+    font-size: 3.5rem;
+  }
+
+  .contact_heading_info {
+    font-size: 1rem;
+  }
+
+  .contact_container {
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+  }
+
+  .contact_details h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact_detail_sub {
+    font-size: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .contact_phone {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    color: #cac3dc;
+  }
+
+  .icons {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+/* ********* Below 544px (Phones ) ********* */
+@media (max-width: 34em) {
+  .heading {
+    margin: 4rem 0 3rem;
+  }
+
+  .contact_heading {
+    font-size: 2rem;
+  }
+
+  .contact_heading_info {
+    font-size: 1rem;
+  }
+
+  .contact_container {
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+  }
+
+  .contact_details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact_detail_sub {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact_info {
+    grid-template-columns: 0.6fr 1fr;
+  }
+
+  .contact_phone {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    color: #cac3dc;
+  }
+
+  .icons {
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    margin-bottom: 2.5rem;
+  }
+}
