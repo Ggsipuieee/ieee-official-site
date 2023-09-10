@@ -37,9 +37,10 @@
 }
 .event-flex {
   display: flex;
+  flex-wrap: wrap;
   gap: 5rem;
   /* position: relative; */
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 .Event-heading {

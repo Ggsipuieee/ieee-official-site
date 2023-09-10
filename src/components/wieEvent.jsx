@@ -30,7 +30,9 @@ function WieProject() {
           </div>
         </div>
       </div> */}
-      <h1 data-aos="slide-up" className="Event-heading">Past Events</h1>
+      <h1 data-aos="slide-up" className="Event-heading">
+        Past Events
+      </h1>
       <div data-aos="fade-up" className="event-flex">
         <div className="event-card">
           <img className="small-event-img" src="./images/wie-event2.jpeg" />
@@ -52,6 +54,17 @@ function WieProject() {
               <h3>
                 SDE at one of the biggest tech company Adobe,introducing Web
                 development and organsie a quize related to web development
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div className="event-card ">
+          <img className="small-event-img" src="./images/wie-essay.JPG" />
+          <div className="about-event">
+            <div className="wie-event-content">
+              <h3>
+                WIE conducted an online essay writing competition for
+                celebrating engineer's month.
               </h3>
             </div>
           </div>
