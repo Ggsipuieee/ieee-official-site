@@ -9,7 +9,7 @@ class Header extends Component {
     return (
       <nav>
         <Link to="/">
-          <img className="nav-logo" src="./images/ieeeggsipulogo.png" />
+          <img className="nav-logo" src="./images/ieeeggsipu_logo.jpeg" />
         </Link>
 
         <div>

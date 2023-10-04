@@ -17,7 +17,9 @@ html {
   font-family: "Telefon Black";
 }
 .heading-main strong {
-  background: linear-gradient(-45deg, #1CB5E0 0%, #000046 100% );
+  /* background: linear-gradient(-45deg, #1CB5E0 0%, #000046 100% ); */
+  background: linear-gradient(-45deg, #44C8F5 0%, #00629B 100% );
+
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -107,6 +109,8 @@ html {
 .card-text {
   font-size: 1.6rem;
   line-height: 1.5;
+  z-index: 99;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
 .card-link {
   font-size: 1.6rem;
@@ -122,16 +126,41 @@ html {
   display: flex;
   align-items: center;
   gap: 2rem;
+  background-color: transparent;
+  z-index: 99;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
 .information-card {
+  position: relative;
   display: grid;
   padding: 3rem;
   background-color: #fff;
   gap: 2rem;
+  border-radius: 10px;
+  overflow: hidden;
   grid-template-columns: 35rem;
   grid-template-rows: 5rem 15rem 5rem;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
-.information-card:hover {
-  transform: scale(1.05);
+
+.information-card::before {
+  content: "";
+  position: absolute;
+  left: 50;
+  bottom: 0;
+  width: 6px;
+  height: 100%;
+  /* background: linear-gradient(-45deg, #1CB5E0 0%, #000046 100% ); */
+  background: linear-gradient(-45deg, #44C8F5 0%, #00629B 100% );
+  /* z-index: -1; */
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.information-card:hover .information-card_header,.information-card:hover .card-text {
+  color: #e8e8e8;
+}
+
+.information-card:hover::before {
+  width: 100%;
 }
