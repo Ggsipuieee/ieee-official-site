@@ -18,7 +18,7 @@ nav {
 #navbar {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 8rem;
 }
 #navbar li {
   list-style: none;
@@ -40,13 +40,15 @@ nav {
     justify-content: center;
     position: fixed;
     top: 9rem;
-    right: -500px;
-    width: 500px;
+    right: -70vh;
+    width: 70vh;
     height: 100vh;
     background-color: #2a3239;
     box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.1);
     padding: 1rem 0 0 1rem;
     z-index: 1000;
+
+    transition: all 0.25s ease-in;
   }
   .nav-link {
     color: #fff;
@@ -54,7 +56,7 @@ nav {
   }
   #navbar.active {
     right: 0px;
-    width: 50vw;
+    width: 70vw;
     /* width: 100vw; */
   }
   #mobile li {

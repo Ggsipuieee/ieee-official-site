@@ -101,3 +101,18 @@
     box-shadow: none;
   }
   
+
+  @media screen and (max-width: 1000px) {
+      .our-events-container {
+        padding: 6rem 4rem;
+      }
+      .our-event-card{
+        max-width: 80%;
+      }
+
+      .our-event-content .btn {
+        font-size: 20px;
+        padding: 10px 15px;
+      }
+      
+  }

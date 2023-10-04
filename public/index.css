@@ -7,6 +7,11 @@ html {
   font-size: 62.5%;
 }
 
+
+.objectCover {
+  object-fit: fill;
+}
+
 .heading-main {
   font-size: 160px;
   font-style: bold;
