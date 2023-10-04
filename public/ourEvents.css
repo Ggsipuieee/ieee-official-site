@@ -41,7 +41,8 @@
   
   .our-event-content .para {
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 1.8rem;
+    text-align: justify;
   }
   
   .our-event-content .btn {
