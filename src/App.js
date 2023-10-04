@@ -9,7 +9,11 @@ import Wie from "./pages/Wie.jsx";
 import { UpcomingEventpage } from "./components/UpcomingEventpage.jsx";
 // import About from "./pages/About.jsx";
 
+
+
+
 function App() {
+
   return (
     <>
       <Router>
