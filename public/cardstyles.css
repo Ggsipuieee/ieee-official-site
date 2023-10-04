@@ -68,7 +68,9 @@ figure.snip1174 p {
   line-height: 1.4em;
 }
 figure.snip1174.red {
-  background-color: #0d98ba;
+  /* background-color: #0d98ba; */
+  background: linear-gradient(-45deg, #1CB5E0 0%, #000046 100% );
+
 }
 figure.snip1174:hover img,
 figure.snip1174.hover img {

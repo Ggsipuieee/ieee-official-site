@@ -8,7 +8,7 @@ html {
 }
 
 .heading-main {
-  font-size: 243px;
+  font-size: 160px;
   font-style: bold;
   text-transform: uppercase;
   text-align: center;
@@ -17,12 +17,20 @@ html {
   font-family: "Telefon Black";
 }
 .heading-main strong {
-  color: #0dcaf0;
+  background: linear-gradient(-45deg, #1CB5E0 0%, #000046 100% );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
+
+.past-events-heading , .upcoming-events-heading{
+  font-size: 120px;
+}
+
 .about-us-intro {
   background: rgb(72, 72, 72);
-  padding: 8rem 6rem;
+  padding: 8rem 4rem;
 }
+
 .hero-section-heading {
   font-size: 4.8rem;
   text-transform: capitalize;

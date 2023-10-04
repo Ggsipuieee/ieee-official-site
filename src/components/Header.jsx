@@ -28,8 +28,8 @@ class Header extends Component {
               </Link>
             </li>
             <li>
-              <Link className="nav-link" to="/pastevents">
-                Past Events
+              <Link className="nav-link" to="/events">
+                Our Events
               </Link>
             </li>
             <li>

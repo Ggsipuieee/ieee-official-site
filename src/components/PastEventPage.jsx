@@ -5,15 +5,76 @@ function PastEvent() {
   return (
     <div>
       <div class="page-event">
-        <div class="cover">
-          <div className="heading" id="past-event-Head">
-            Past events
-          </div>
-        </div>
+      <div class="about-us-intro">
+        <h1 class="heading-main past-events-heading">
+          <strong>P</strong>ast Events
+        </h1>
+      </div>
 
         <div class="container">
           <div class="upcoming-sec">
             <div class="heading ">Past Events</div>
+          </div>
+
+          <div class="upcoming-event-list">
+            <div class="event-block">
+              <div class="row">
+                <div class="col-lg-2 sec-1">
+                  <table>
+                    <tr>
+                      <td>
+                        <div class="month">2023 Sep</div>
+                        <div class="month-date-devider"></div>
+                        <div class="date">24</div>
+                      </td>
+                      <td class="title">Unlocking the Powe of Redis</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="col-lg-5 sec-2">
+                  <img src="./images/Redis_Event.jpg" />
+                </div>
+                <div class="col-lg-5 sec-3">
+                  <div class="title">Unlocking the Power of Redis</div>
+                  <div class="venue">
+                    <table>
+                      <tr>
+                        <td>
+                          <i class="fa fa-map-marker"></i>
+                        </td>
+                        <td>
+                          <div>USICT, GGSIPU</div>
+                          <div class="dim-color">
+                            <a href="https://www.google.co.in" target="blank">
+                              Get Directions
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="time">
+                    <table>
+                      <tr>
+                        <td>
+                          <i class="fa fa-clock-o"></i>
+                        </td>
+                        <td>
+                          <div>September 2023</div>
+                          <div
+                            data-livestamp="1517054400"
+                            class="dim-color"
+                          ></div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="sort-story">
+                    "Journey into Data Speed and Efficiency"
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="upcoming-event-list">
