@@ -21,63 +21,63 @@ function Sectionourteam() {
         <Heading text="Our Executive Comittee" class="aboutourteam" />
         <div className="student-card">
           <Card
-            src="./images/devansh.jpg"
-            text="Devansh Oberoi"
+            src="./images/Aryavir.jpeg"
+            text="Aryavir Malik"
             content="Chairperson"
           />
           <Card
-            src="./images/jatin-bhaiya.JPG"
-            text="Jatin Singh"
+            src="./images/Atul.jpg"
+            text="Atul Kumar Kanojia"
             content="General Secretary"
           />
           <Card
-            src="./images/aadya-did-new.JPG"
-            text="Aadya Bubber"
+            src="./images/Binisha.jpg"
+            text="Binisha Pant"
             content="WIE Chairperson"
           />
         </div>
         <div className="student-card">
-          <Card src="./images/Prince.jpg" text="Prince" content="Treasurer" />
+          <Card src="./images/Nikhil.jpg" text="Nikhil Jain" content="Treasurer" />
           <Card
-            src="./images/Aakriti.jpg"
-            text="Aakriti Saxena"
+            src="./images/Tanya.jpg"
+            text="Tanya Tanwer"
             content="WIE Vice Chairperson"
           />
           <Card
-            src="./images/himanshu.jpeg"
-            text="Himanshu Sisodia"
+            src="./images/Milind.jpg"
+            text="Milind Kumar"
             content="Vice Chairperson"
           />
         </div>
         <Heading text="Branch Mentors" class="aboutourteam" />
         <div className="student-card">
           <Card
-            src="./images/abhishek.jpeg"
-            text="Abhishek"
+            src="./images/himanshu.jpeg"
+            text="Himanshu Shishodiya"
             content="Branch Mentor"
           />
           <Card
-            src="./images/wamika.jpeg"
-            text="Wamika Jha"
+            src="./images/aadya-did-new.jpg"
+            text="Aadya Babbar"
             content="Branch Mentor"
           />
           <Card
-            src="./images/Ragini.jpeg"
-            text="Ragini Bhayana"
+            src="./images/devansh.jpg"
+            text="Devansh Oberoi"
             content="Branch Mentor"
           />
         </div>
         <Heading text="Our Technical Team" class="aboutourteam" />
         <div className="teacher-card">
           <Card
-            src="./images/Nilaksh.jpeg"
-            text="Nilaksh Dureja"
+            src="./images/Vishal.jpg"
+            text="Vishal Verma"
             content="Technical Lead"
           />
           <Card
-            src="./images/Aryavir.jpeg"
-            text="Aryavir Malik"
-            content="Technical member"
+            src="./images/Harshil.jpg"
+            text="Harshil Bansal"
+            content="Technical Lead"
           />
         </div>
       </div>
