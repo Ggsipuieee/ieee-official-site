@@ -61,7 +61,10 @@ body {
 }
 .aboutpara {
   margin-top: 10px;
-  font-size: 17px;
+  font-size: 20px;
+  line-height: 1.9;
+  text-align: center;
+
 }
 
 .smalll {

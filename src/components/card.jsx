@@ -5,8 +5,8 @@ import Heading from "../small compo/Heading";
 
 function Card(props) {
   return (
-    <figure class="snip1174 red snip1000">
-      <Image src={props.src} class="objectCover"/>
+    <figure class="snip1174 red">
+      <Image src={props.src} />
       <figcaption>
         <Heading class="invi" text={props.text} />
         <Paragraph content={props.content} />
