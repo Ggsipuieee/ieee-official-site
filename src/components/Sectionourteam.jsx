@@ -57,7 +57,7 @@ function Sectionourteam() {
             content="Branch Mentor"
           />
           <Card
-            src="./images/aadya-did-new.jpg"
+            src="./images/aadya-did-new.JPG"
             text="Aadya Babbar"
             content="Branch Mentor"
           />
