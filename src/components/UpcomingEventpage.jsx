@@ -69,11 +69,11 @@ export const UpcomingEventpage = () => {
                     </table>
                   </div>
                   <div class="sort-story">
-                    "Journey into Data Speed and Efficiency"
+                    <q> Uniting Minds, Igniting Innovation! </q>
                   </div>
                   <div class="group-of-btn">
                     <a
-                      href="https://forms.gle/FFcNBkUYtk1YHV1q9"
+                      href="https://forms.gle/YmbS5huGhMbNYBho8"
                       target="blank"
                       class="btn book-ticket"
                     >
@@ -139,11 +139,11 @@ export const UpcomingEventpage = () => {
                     </table>
                   </div>
                   <div class="sort-story">
-                    "No play and all work makes Jack a dull boy"
+                  <q> Seize the Victory, Raise the Flag! </q>
                   </div>
                   <div class="group-of-btn">
                     <a
-                      href="https://forms.gle/h88m3o1maJcr7rFZA"
+                      href="https://forms.gle/YmbS5huGhMbNYBho8"
                       target="blank"
                       class="btn book-ticket"
                     >
@@ -194,7 +194,7 @@ export const UpcomingEventpage = () => {
                           <i class="fa fa-clock-o"></i>
                         </td>
                         <td>
-                          <div>2Pm - 4PM</div>
+                          <div>2PM - 4PM</div>
                           <div
                             data-livestamp="1517054400"
                             class="dim-color"
@@ -203,10 +203,73 @@ export const UpcomingEventpage = () => {
                       </tr>
                     </table>
                   </div>
-                  <div class="sort-story">"For learning is Growth "</div>
+                  <div class="sort-story"><q> Unleash Your Digital Might: Web Battle 2023! </q></div>
                   <div class="group-of-btn">
                     <a
-                      href="https://forms.gle/qPL7hbwBoxYZtT5Z6"
+                      href="https://forms.gle/YmbS5huGhMbNYBho8"
+                      target="blank"
+                      class="btn book-ticket"
+                    >
+                      Register Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="upcoming-event-list">
+            <div class="event-block">
+              <div class="row">
+                <div class="col-lg-2 sec-1">
+                  <table>
+                    <tr>
+                      <td>
+                        <div class="month">2023 Oct</div>
+                        <div class="month-date-devider"></div>
+                        <div class="date">11</div>
+                      </td>
+                      <td class="title">Game Swords</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="col-lg-5 sec-2" id="arambh-img">
+                  <img src="./images/gameSwords23.webp" />
+                </div>
+                <div class="col-lg-5 sec-3">
+                  <div class="title">Game Swords</div>
+                  <div class="venue">
+                    <table>
+                      <tr>
+                        <td>
+                          <i class="fa fa-map-marker"></i>
+                        </td>
+                        <td>
+                          <div>Atal Inovation & Incubation Center USICT, GGSIPU</div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="time">
+                    <table>
+                      <tr>
+                        <td>
+                          <i class="fa fa-clock-o"></i>
+                        </td>
+                        <td>
+                          <div>11AM - 2PM</div>
+                          <div
+                            data-livestamp="1517054400"
+                            class="dim-color"
+                          ></div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="sort-story"><q> Squad Up for Victory: Valorant & Freefire Unleashed! </q></div>
+                  <div class="group-of-btn">
+                    <a
+                      href="https://forms.gle/YmbS5huGhMbNYBho8"
                       target="blank"
                       class="btn book-ticket"
                     >
@@ -257,7 +320,7 @@ export const UpcomingEventpage = () => {
                           <i class="fa fa-clock-o"></i>
                         </td>
                         <td>
-                          <div>We will notify</div>
+                          <div>1PM</div>
                           <div
                             data-livestamp="1517054400"
                             class="dim-color"
@@ -266,7 +329,16 @@ export const UpcomingEventpage = () => {
                       </tr>
                     </table>
                   </div>
-                  <div class="sort-story">"For a techy world ahead"</div>
+                  <div class="sort-story"><q> Crafting Experiences, Shaping the Future! </q></div>
+                  <div class="group-of-btn">
+                    <a
+                      href="https://forms.gle/YmbS5huGhMbNYBho8"
+                      target="blank"
+                      class="btn book-ticket"
+                    >
+                      Register Now
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -320,7 +392,7 @@ export const UpcomingEventpage = () => {
                       </tr>
                     </table>
                   </div>
-                  <div class="sort-story">"For learning is Growth "</div>
+                  <div class="sort-story"><q> Unlocking Success, One Word at a Time! </q></div>
                 </div>
               </div>
             </div>

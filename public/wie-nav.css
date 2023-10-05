@@ -13,12 +13,20 @@ nav {
 .nav-link {
   color: #000;
   font-size: 1.6rem;
+  font-family: "Varela Round", sans-serif;
+  font-size: large;
+  /* font-weight: 600; */
+  letter-spacing: 1px;
+}
+
+.nav-link:hover , .nav-link:active{
+  color: #00629B;
 }
 
 #navbar {
   display: flex;
   align-items: center;
-  gap: 8rem;
+  gap: 5rem;
 }
 #navbar li {
   list-style: none;
@@ -39,6 +47,7 @@ nav {
     align-items: center;
     justify-content: center;
     position: fixed;
+    gap: 8rem;
     top: 9rem;
     right: -70vh;
     width: 70vh;

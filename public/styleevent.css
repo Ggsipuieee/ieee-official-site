@@ -118,6 +118,7 @@
 }
 .page-event .upcoming-event-list .event-block .sec-3 .venue table td {
   vertical-align: top;
+  font-size: 14px;
 }
 .page-event .upcoming-event-list .event-block .sec-3 .venue table td i {
   color: #db2d8e;
@@ -139,6 +140,7 @@
   padding-bottom: 3vh;
 }
 .page-event .upcoming-event-list .event-block .sec-3 .time table td {
+  font-size: 14px;
   vertical-align: top;
 }
 .page-event .upcoming-event-list .event-block .sec-3 .time table td i {
@@ -152,22 +154,33 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   overflow: hidden;
+  font-size: 16px;
 }
 .page-event .upcoming-event-list .event-block .sec-3 .group-of-btn {
   padding-top: 3vh;
 }
+
+
 .page-event
-  .upcoming-event-list
-  .event-block
-  .sec-3
-  .group-of-btn
-  .book-ticket {
+.upcoming-event-list
+.event-block
+.sec-3
+.group-of-btn
+.book-ticket {
   /* background-color: #3cbfaf; */
   background: linear-gradient(-45deg, #44C8F5 0%, #00629B 100% );
   padding: 8px 12px;
   color: #fff;
   margin-bottom: 10px;
   font-size: 16px;
+}
+
+.page-event .upcoming-event-list .event-block .sec-3 .group-of-btn .book-ticket:hover {
+  /* background: rgb(61, 106, 255); */
+  box-shadow: 0 0 30px 1px rgba(68, 201, 245, 0.803);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 .page-event .page-heading {
   text-transform: uppercase;
