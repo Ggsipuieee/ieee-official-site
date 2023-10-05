@@ -12,7 +12,7 @@ export const UpcomingEventpage = () => {
 
         <div class="container">
           <div class="upcoming-sec">
-            <div class="heading ">Upcoming Events</div>
+            <div class="heading ">IEEE Week Synapse 9.0</div>
           </div>
 
           <div class="upcoming-event-list">
