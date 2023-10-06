@@ -290,6 +290,69 @@ export const UpcomingEventpage = () => {
                       <td>
                         <div class="month">2023 Oct</div>
                         <div class="month-date-devider"></div>
+                        <div class="date">11</div>
+                      </td>
+                      <td class="title">Video Editing Competetion</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="col-lg-5 sec-2" id="arambh-img">
+                  <img src="./images/videoEditing23.jpg" />
+                </div>
+                <div class="col-lg-5 sec-3">
+                  <div class="title">Video Editing Competetion</div>
+                  <div class="venue">
+                    <table>
+                      <tr>
+                        <td>
+                          <i class="fa fa-map-marker"></i>
+                        </td>
+                        <td>
+                          <div>Atal Inovation & Incubation Center USICT, GGSIPU</div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="time">
+                    <table>
+                      <tr>
+                        <td>
+                          <i class="fa fa-clock-o"></i>
+                        </td>
+                        <td>
+                          <div>2PM - 4PM</div>
+                          <div
+                            data-livestamp="1517054400"
+                            class="dim-color"
+                          ></div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="sort-story"><q> Cutting-Edge Creations: Edit Your Way to Excellence! </q></div>
+                  <div class="group-of-btn">
+                    <a
+                      href="https://forms.gle/YmbS5huGhMbNYBho8"
+                      target="blank"
+                      class="btn book-ticket"
+                    >
+                      Register Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="upcoming-event-list">
+            <div class="event-block">
+              <div class="row">
+                <div class="col-lg-2 sec-1">
+                  <table>
+                    <tr>
+                      <td>
+                        <div class="month">2023 Oct</div>
+                        <div class="month-date-devider"></div>
                         <div class="date">12</div>
                       </td>
                       <td class="title">Design-a-thon</td>
